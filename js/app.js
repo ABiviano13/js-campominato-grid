@@ -19,7 +19,7 @@ BtnElement.addEventListener('click', function() {
 });
 
 //1.4 Creare una variabile con il valore che vogliamo dare al lato della griglia (10)
-let latoGriglia = 10;
+let latoGriglia = Math.floor(Math.random() * (30 - 10 + 1) + 10);
 // console.log(latoGriglia);
 
 //1.5 Creare una variabile con il numero di celle che vogliamo avere
