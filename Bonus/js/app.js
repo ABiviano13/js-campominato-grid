@@ -1,6 +1,5 @@
 /// FUNZIONI ///
 
-
 // CREAZIONE GRIGLIA
 //1. Creazione della griglia (essa verrà generata al click sul bottone)
 //1.1 Creare una variabile che si prenda il contenitore della griglia dal DOM
@@ -19,7 +18,7 @@ BtnElement.addEventListener('click', function() {
 });
 
 //1.4 Creare una variabile con il valore che vogliamo dare al lato della griglia (10)
-let latoGriglia = Math.floor(Math.random() * (30 - 10 + 1) + 10);
+let latoGriglia = 10;
 // console.log(latoGriglia);
 
 //1.5 Creare una variabile con il numero di celle che vogliamo avere
@@ -49,7 +48,6 @@ for (let i = 0; i < celle; i++){
 
         //BONUS Aggiungere una classe per cambiarle il colore di background
         cellaElement.classList.add('cella');
-        console.log(cellaElement);
+        // console.log(cellaElement);
     });
 };
-
