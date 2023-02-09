@@ -1,8 +1,16 @@
-.grid.display-none{
+.grid-championship{
+    display: flex;
+}
+
+.grid-championship.display-none{
     display: none;
 }
 
-.grid *{
+.grid-championship > * {
     border: 2px solid red;
-    text-align: center; 
+    aspect-ratio: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 24px;
 }
