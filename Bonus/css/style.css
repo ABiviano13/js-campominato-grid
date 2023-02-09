@@ -1,0 +1,20 @@
+.grid-championship{
+    display: flex;
+}
+
+.grid-championship.display-none{
+    display: none;
+}
+
+.grid-championship > * {
+    border: 2px solid red;
+    aspect-ratio: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 24px;
+}
+
+.cella{
+    background-color: green;
+}
