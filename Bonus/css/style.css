@@ -1,12 +1,8 @@
-.grid-championship{
+.grid-minefild{
     display: flex;
 }
 
-.grid-championship.display-none{
-    display: none;
-}
-
-.grid-championship > * {
+.grid-minefild > * {
     border: 2px solid red;
     aspect-ratio: 1;
 	display: flex;
